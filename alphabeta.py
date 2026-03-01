@@ -37,7 +37,7 @@ def alpha_beta(depth, node_index, maximizing_player, values, alpha, beta):
 
 
 
-values = [3, 5, 6, 9, 1, 2, 0, -1]  # Leaf nodes -> values 
+values = [3, 5, 6, 9, 1, 2, 0, -1]  # Leaf nodes    ->    values 
 depth = 3  # Tree depth
 
 result = alpha_beta(depth, 0, True, values, float('-inf'), float('inf'))
