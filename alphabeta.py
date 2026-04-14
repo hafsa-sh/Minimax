@@ -1,6 +1,6 @@
 def alpha_beta(depth, node_index, maximizing_player, values, alpha, beta):
     
-    # Base case: leaf node
+    
     if depth == 0:
         return values[node_index]
 
